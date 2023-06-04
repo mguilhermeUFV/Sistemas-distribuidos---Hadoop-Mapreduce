@@ -146,7 +146,7 @@ Edite o arquivo `etc/hadoop/yarn-site.xml` na máquina mestre e defina as seguin
 </configuration>
 ```
 ## Iniciando o Cluster
-Inicie o NameNode na máquina mestre executando o seguinte comando:
+Inicie o NameNode e DataNode na máquina mestre executando o seguinte comando:
 
 ```ruby
 $ hdfs namenode -format
@@ -173,6 +173,7 @@ Exiba informações detalhadas sobre o status de cada nó no cluster, incluindo 
 ```ruby
 $ hdfs dfsadmin -report
 ```
+Inicie o DataNode nas máquinas slaves
 
 ## Executando o MapReduce
 Agora que você configurou corretamente o Hadoop e o cluster, pode executar um exemplo simples de aplicação MapReduce. Vamos usar o exemplo clássico de contagem de palavras.
