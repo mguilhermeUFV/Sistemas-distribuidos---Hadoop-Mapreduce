@@ -259,4 +259,4 @@ $ hdfs dfs -cat /output/part-r-00000
 Os resultados do processo MapReduce serão exibidos.
 
 
-####Fim
+#### Fim
